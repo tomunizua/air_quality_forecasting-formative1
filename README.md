@@ -44,10 +44,15 @@ I performed **16 experiments** varying:
 
 ## 📁 Repository Structure
 ├── data/ # Contains the raw and preprocessed air quality datasets
+
 ├── model/ # Stores the saved model
+
 ├── outputs/ # Contains generated predictions for each experiment
+
 ├── README.md # Project overview and setup instructions
+
 ├── air_quality_forecasting_assignment.ipynb # Main notebook with code, experiments, and results
+
 ├── requirements.txt # List of Python dependencies needed to run the project
 
 ---
@@ -71,8 +76,10 @@ I performed **16 experiments** varying:
 ## Evaluation Metric
 
 We use Root Mean Squared Error (RMSE) as the primary evaluation metric.
+
 Formula:
 RMSE = sqrt( (1/n) * Σ (y_i - ŷ_i)² )
+
 Lower RMSE indicates better model performance. The goal was to reach an RMSE under 4000, though the final model fell slightly short of this benchmark.
 
 ---
